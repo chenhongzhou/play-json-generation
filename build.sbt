@@ -1,8 +1,8 @@
 name := """play-json-generation"""
 version := "1.0.0"
 scalaVersion := "2.11.11"
-organization := "io.githu.playformat"
-organizationName := "io.githu.playformat"
+organization := "io.github.chenhongzhou"
+organizationName := "io.github.chenhongzhou"
 
 organizationHomepage := Some(url("https://github.com/chenhongzhou"))
 homepage := Some(url("https://github.com/chenhongzhou/play-json-generation"))
@@ -13,8 +13,8 @@ val jsoniterCore     = "com.github.plokhotnyuk.jsoniter-scala" %% "jsoniter-scal
 val jsoniterMacros  = "com.github.plokhotnyuk.jsoniter-scala" %% "jsoniter-scala-macros" % "2.12.0" % "provided"
 
 val buildSettings = Seq(
-  organization := "io.githu.playformat",
-  organizationName := "io.githu.playformat",
+  organization := "io.github.chenhongzhou",
+  organizationName := "io.github.chenhongzhou",
   organizationHomepage := Some(url("https://github.com/chenhongzhou")),
   scalaVersion := "2.11.12",
   crossScalaVersions := Seq("2.11.12", "2.12.6"),
