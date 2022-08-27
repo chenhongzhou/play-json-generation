@@ -1,5 +1,5 @@
 name := """play-json-generation"""
-organization := "com.playscala.format"
+organization := "cn.playscala.format"
 
 version := "1.0-SNAPSHOT"
 
