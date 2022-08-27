@@ -1,15 +1,16 @@
-# play-json-generation 介绍
+# What's  play-json-generation 
 play-json-generation 是一个专门为 [Play Framework](https://www.playframework.com/) 开发的 序列化 模块, 为 Play Framework 提供一种简洁的 默认序列化 访问方式。
-并且提供了其他序列化模块的默认方式，例如，
+play-json-generation is a serialization module specially developed for [Play Framework](https://www.playframework.com/), which provides a simple default serialization access method for the play framework.
+And provides the default mode of other serialization modules, such as:
 
-- 根据case class生成play.api.libs.json.Format
+- Generate 'play.api.libs.json.Format' according to the case class
 
-- 根据case class生成com.github.plokhotnyuk.jsoniter_scala.core.JsonValueCodec
+- Generate 'com.github.plokhotnyuk.jsoniter_scala.core.JsonValueCodec' according to the case class
 
-- import com.play.generation.format.main.EnableAuto._方便使用
+- Easy to use 'import com.play.generation.format.main.EnableAuto._'
 
-## 存在问题
+## Existing problems
 
-- 同一class/object显式定义和混用可能会导致重复定义错误
+- Mixing the implicit definition of the same class / object with EnableAuto may lead to duplicate definition errors
 
-- JsonValueCodec还不支持数组、列表形式的序列化操作
+- JsonValueCodec does not support serialization in the form of array and list
